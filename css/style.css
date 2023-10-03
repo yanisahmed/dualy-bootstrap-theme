@@ -131,7 +131,6 @@ a.more {
 .btn {
   font-weight: 600;
   padding: 12px 30px;
-  border-radius: 30px;
   color: #ffffff;
   background: #2f2f2f;
   border-color: #2f2f2f;
@@ -154,7 +153,7 @@ a.more {
   border-color: #1f2331;
 }
 .btn.btn-secondary {
-  color: #2f2f2f;
+  color: #ffffff;
   background: #267FE1;
   border-color: #267FE1;
 }
@@ -170,4 +169,42 @@ a.more {
 .btn.btn-white-outline:hover {
   border-color: white;
   color: #ffffff;
+}
+
+.search-cta .container {
+  padding: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #171A23;
+  border-radius: 8px;
+  background-image: url(../images/search_bg.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.search-cta .container .cta {
+  position: relative;
+}
+.search-cta .container .cta h1 {
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.search-cta .container .cta .input-group {
+  padding: 10px;
+  background-color: #ffffff;
+}
+.search-cta .container .cta .input-group .circle {
+  border-radius: 20px;
+  z-index: 9;
+}
+.search-cta .container .cta .input-group .right-circle {
+  position: absolute;
+  left: 100px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.search-cta .container .cta .input-group .form-control {
+  margin-left: 95px !important;
+  border: 0;
 }

@@ -197,7 +197,7 @@ a {
 .btn {
 	font-weight: 600;
 	padding: 12px 30px;
-	border-radius: 30px;
+	// border-radius: 30px;
 	color: $white;
 	background: $dark;
 	border-color: $dark;
@@ -219,7 +219,7 @@ a {
 		}
 	}
 	&.btn-secondary {
-		color: $dark;
+		color: $white;
 		background: $secondary;
 		border-color: $secondary;
 		&:hover {
@@ -236,4 +236,46 @@ a {
 			color: $white;
 		}
 	}
+}
+
+// Search
+.search-cta{
+	.container{
+		padding: 100px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		background-color: #171A23;
+		border-radius: 8px;
+		background-image: url(../images/search_bg.svg);
+		background-repeat: no-repeat;
+		background-position: top right;
+		.cta{
+			position: relative;
+			h1{
+				color: $white;
+				font-size: 32px;
+				line-height: 36px;
+				margin-bottom: 10px;
+			}
+			.input-group{
+				padding: 10px;
+				background-color: $white;
+				.circle{
+					border-radius: 20px;
+					z-index: 9;
+				}
+				.right-circle{
+					position: absolute;
+					left: 100px;
+					border-top-right-radius: 30px;
+					border-bottom-right-radius: 30px;
+				}
+				.form-control{
+					margin-left: 95px!important;
+					border: 0;
+				}
+			}
+		}
+	}
+	
 }
