@@ -1,0 +1,173 @@
+/*
+* Template Name: Dualy
+* Template Author: Yanis.me
+* Author URI: https://yanis.me
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  color: #111218;
+  font-size: 16px;
+  background-color: #111218;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s all ease;
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+a:hover {
+  color: #2f2f2f;
+  text-decoration: none;
+}
+a.more {
+  font-weight: 600;
+}
+
+.custom-navbar {
+  background: #292E41 !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.custom-navbar .navbar-brand {
+  font-size: 32px;
+  font-weight: 600;
+}
+.custom-navbar .navbar-toggler {
+  border-color: transparent;
+}
+.custom-navbar .navbar-toggler:active, .custom-navbar .navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+@media (min-width: 992px) {
+  .custom-navbar .custom-navbar-nav li {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+.custom-navbar .custom-navbar-nav li a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff !important;
+  opacity: 0.5;
+  transition: 0.3s all ease;
+  position: relative;
+}
+.custom-navbar .custom-navbar-nav li.active a {
+  color: #267FE1 !important;
+  opacity: 1;
+  background-color: rgba(38, 127, 225, 0.1);
+  border-radius: 14px;
+}
+.custom-navbar .custom-navbar-cta {
+  flex-direction: row;
+}
+.custom-navbar .custom-navbar-cta li {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.custom-navbar .custom-navbar-cta li:first-child {
+  margin-right: 20px;
+}
+
+.hero {
+  background: #111218;
+  padding: calc(4rem - 30px) 0 0rem 0;
+}
+.hero .hero-bg {
+  position: relative;
+  background-image: url(../images/claping-man.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.hero .intro-excerpt {
+  position: relative;
+  max-height: 480px;
+  z-index: 4;
+  padding-top: 20%;
+}
+.hero .intro-excerpt p {
+  display: block;
+}
+.hero .intro-excerpt p span.big-dot {
+  width: 16px;
+  height: 8px;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #ffffff;
+}
+.hero .intro-excerpt p span.small-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.hero h1 {
+  font-weight: 600;
+  color: #ffffff;
+}
+@media (min-width: 1400px) {
+  .hero h1 {
+    font-size: 54px;
+  }
+}
+.hero p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.btn {
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: #ffffff;
+  background: #2f2f2f;
+  border-color: #2f2f2f;
+}
+.btn:hover {
+  color: #ffffff;
+  background: #222222;
+  border-color: #222222;
+}
+.btn:active, .btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+.btn.btn-primary {
+  background: #292E41;
+  border-color: #292E41;
+}
+.btn.btn-primary:hover {
+  background: #1f2331;
+  border-color: #1f2331;
+}
+.btn.btn-secondary {
+  color: #2f2f2f;
+  background: #267FE1;
+  border-color: #267FE1;
+}
+.btn.btn-secondary:hover {
+  background: #1d72d1;
+  border-color: #1d72d1;
+}
+.btn.btn-white-outline {
+  background: transparent;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.btn.btn-white-outline:hover {
+  border-color: white;
+  color: #ffffff;
+}
