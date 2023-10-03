@@ -36,6 +36,8 @@ a.more {
   background: #292E41 !important;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .custom-navbar .navbar-brand {
   font-size: 32px;
@@ -175,7 +177,7 @@ a.more {
   padding: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: #171A23;
+  background-color: rgba(23, 26, 35, 0.5);
   border-radius: 8px;
   background-image: url(../images/search_bg.svg);
   background-repeat: no-repeat;
@@ -195,14 +197,17 @@ a.more {
   background-color: #ffffff;
 }
 .search-cta .container .cta .input-group .circle {
-  border-radius: 20px;
+  border-radius: 20px !important;
   z-index: 9;
+  border: 0;
 }
 .search-cta .container .cta .input-group .right-circle {
   position: absolute;
   left: 100px;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  background-color: #dce5e4 !important;
+  border-top-right-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+  border: 0;
 }
 .search-cta .container .cta .input-group .form-control {
   margin-left: 95px !important;

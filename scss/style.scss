@@ -58,6 +58,8 @@ a {
 	background: $primary!important;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-left: 20px;
+    padding-right: 20px;
 	.navbar-brand {
 		font-size: 32px;
 		font-weight: 600;
@@ -244,7 +246,7 @@ a {
 		padding: 100px;
 		margin-top: 50px;
 		margin-bottom: 50px;
-		background-color: #171A23;
+		background-color: rgba(23, 26, 35, 0.5);
 		border-radius: 8px;
 		background-image: url(../images/search_bg.svg);
 		background-repeat: no-repeat;
@@ -261,14 +263,17 @@ a {
 				padding: 10px;
 				background-color: $white;
 				.circle{
-					border-radius: 20px;
+					border-radius: 20px!important;
 					z-index: 9;
+					border: 0;
 				}
 				.right-circle{
 					position: absolute;
 					left: 100px;
-					border-top-right-radius: 30px;
-					border-bottom-right-radius: 30px;
+					background-color: $light!important;
+					border-top-right-radius: 30px!important;
+					border-bottom-right-radius: 30px!important;
+					border: 0;
 				}
 				.form-control{
 					margin-left: 95px!important;
