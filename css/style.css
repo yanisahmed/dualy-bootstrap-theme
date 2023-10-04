@@ -231,10 +231,10 @@ a.more {
 }
 .player-spotlight .card-player {
   background-color: #272B3F;
+  border-radius: 8px;
 }
 .player-spotlight .card-player .card {
-  border: 1px solid #272B3F;
-  border-radius: 8px !important;
+  border: 0;
 }
 .player-spotlight .card-player .card .divider {
   border-top: 1px solid;
@@ -280,4 +280,17 @@ a.more {
 .player-spotlight .card-player .card .current-season .card-details h3 {
   line-height: 40px;
   vertical-align: middle;
+}
+.player-spotlight .card-player .card .eligible-player h3 {
+  line-height: 22px !important;
+}
+.player-spotlight .card-player .card .eligible-player p {
+  font-size: 14px;
+}
+.player-spotlight .card-player .card .eligible-player .country-flags {
+  margin-left: 5px;
+}
+.player-spotlight .card-player .card .eligible-player .country-flags img {
+  width: 20px;
+  height: 20px;
 }

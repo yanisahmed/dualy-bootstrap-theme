@@ -307,9 +307,9 @@ a {
 	}
 	.card-player{
 		background-color: $dark;
+		border-radius: 8px;
 		.card{
-			border: 1px solid #272B3F;
-			border-radius: 8px!important;
+			border: 0;
 			.divider{
 				border-top: 1px solid;
 				border-bottom: 1px solid;
@@ -363,6 +363,21 @@ a {
 					h3{
 					line-height: 40px;
 					vertical-align: middle;
+					}
+				}
+			}
+			.eligible-player{
+				h3{
+					line-height: 22px!important;
+				}
+				p{
+					font-size: 14px;
+				}
+				.country-flags{
+					margin-left: 5px;
+					img{
+						width: 20px;
+						height: 20px;
 					}
 				}
 			}
