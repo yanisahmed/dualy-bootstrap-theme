@@ -310,6 +310,11 @@ a {
 		.card{
 			border: 1px solid #272B3F;
 			border-radius: 8px!important;
+			.divider{
+				border-top: 1px solid;
+				border-bottom: 1px solid;
+				border-color: rgba(255, 255, 255, 0.1);
+			}
 			.card-body{
 				color: $white!important;
 				background-color: $dark;
@@ -349,6 +354,19 @@ a {
 					}
 				}
 			}
+			.current-season{
+				.card-details{
+					img{
+						width: 40px;
+						height: 40px;
+					}
+					h3{
+					line-height: 40px;
+					vertical-align: middle;
+					}
+				}
+			}
+			
 		}
 	}
 }
