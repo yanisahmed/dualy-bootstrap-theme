@@ -241,14 +241,27 @@ a {
 // Search
 .search-cta {
   .container {
+	position: relative;
     padding: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: rgba(23, 26, 35, 0.5);
     border-radius: 8px;
     background-image: url(../images/search_bg.svg);
     background-repeat: no-repeat;
     background-position: top right;
+	
+	.background{
+		&:before{
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(23, 26, 35, 0.7);
+		}
+	}
     .cta {
       position: relative;
       h1 {
