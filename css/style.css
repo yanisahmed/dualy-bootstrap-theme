@@ -13,7 +13,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 28px;
-  color: #111218;
+  color: #ffffff;
   font-size: 16px;
   background-color: #111218;
 }
@@ -33,7 +33,7 @@ a.more {
 }
 
 .custom-navbar {
-  background: #292E41 !important;
+  background: #292e41 !important;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
@@ -65,7 +65,7 @@ a.more {
   position: relative;
 }
 .custom-navbar .custom-navbar-nav li.active a {
-  color: #267FE1 !important;
+  color: #267fe1 !important;
   opacity: 1;
   background-color: rgba(38, 127, 225, 0.1);
   border-radius: 14px;
@@ -147,8 +147,8 @@ a.more {
   box-shadow: none;
 }
 .btn.btn-primary {
-  background: #292E41;
-  border-color: #292E41;
+  background: #292e41;
+  border-color: #292e41;
 }
 .btn.btn-primary:hover {
   background: #1f2331;
@@ -156,8 +156,8 @@ a.more {
 }
 .btn.btn-secondary {
   color: #ffffff;
-  background: #267FE1;
-  border-color: #267FE1;
+  background: #267fe1;
+  border-color: #267fe1;
 }
 .btn.btn-secondary:hover {
   background: #1d72d1;
@@ -194,6 +194,8 @@ a.more {
 }
 .search-cta .container .cta .input-group {
   padding: 10px;
+  border-radius: 12px !important;
+  border-radius: 12px !important;
   background-color: #ffffff;
 }
 .search-cta .container .cta .input-group .circle {
