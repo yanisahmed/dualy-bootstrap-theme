@@ -14,18 +14,18 @@ body {
   font-weight: 400;
   line-height: 28px;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #111218;
 }
 
 a {
   text-decoration: none;
   transition: 0.3s all ease;
-  color: #2f2f2f;
+  color: #272B3F;
   text-decoration: underline;
 }
 a:hover {
-  color: #2f2f2f;
+  color: #272B3F;
   text-decoration: none;
 }
 a.more {
@@ -134,13 +134,13 @@ a.more {
   font-weight: 600;
   padding: 12px 30px;
   color: #ffffff;
-  background: #2f2f2f;
-  border-color: #2f2f2f;
+  background: #272B3F;
+  border-color: #272B3F;
 }
 .btn:hover {
   color: #ffffff;
-  background: #222222;
-  border-color: #222222;
+  background: #1d202f;
+  border-color: #1d202f;
 }
 .btn:active, .btn:focus {
   outline: none !important;
@@ -198,7 +198,7 @@ a.more {
 }
 .search-cta .container .cta h1 {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 36px;
   margin-bottom: 10px;
 }
@@ -224,4 +224,47 @@ a.more {
 .search-cta .container .cta .input-group .form-control {
   margin-left: 95px !important;
   border: 0;
+}
+
+.player-spotlight h1 {
+  font-size: 2rem;
+}
+.player-spotlight .card-player {
+  background-color: #272B3F;
+}
+.player-spotlight .card-player .card {
+  border: 1px solid #272B3F;
+  border-radius: 8px !important;
+}
+.player-spotlight .card-player .card .card-body {
+  color: #ffffff !important;
+  background-color: #272B3F;
+}
+.player-spotlight .card-player .card .card-body .card-top img {
+  border-radius: 8px;
+}
+.player-spotlight .card-player .card .card-body .card-details h3 {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  color: #ffffff;
+}
+.player-spotlight .card-player .card .card-body .card-details ul li {
+  font-size: 12px !important;
+  margin-right: 1px;
+}
+.player-spotlight .card-player .card .card-body .card-details ul li img {
+  height: 16px;
+}
+.player-spotlight .card-player .card .card-body .card-details ul li span {
+  font-size: 12px;
+}
+.player-spotlight .card-player .card .card-body .card-details ul li .dot {
+  width: 4px;
+  height: 4px;
+  display: inline-block;
+  background-color: #ffffff;
+  opacity: 0.2;
+  border-radius: 50px;
+  line-height: 12px;
+  vertical-align: middle;
 }

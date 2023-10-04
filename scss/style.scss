@@ -11,7 +11,7 @@ $white: #ffffff;
 $black: #000000;
 $primary: #292e41;
 $secondary: #267fe1;
-$dark: #2f2f2f;
+$dark: #272B3F;
 $light: #dce5e4;
 $lighter: #eff2f1;
 $body_color: #111218;
@@ -21,6 +21,7 @@ $lg: 992px;
 $xl: 1200px;
 $xxl: 1400px;
 
+$h1 : 2rem;
 $font-family: "Poppins", sans-serif;
 
 body {
@@ -33,7 +34,7 @@ body {
   font-weight: 400;
   line-height: 28px;
   color: $white;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: $body_color;
 }
 
@@ -266,7 +267,7 @@ a {
       position: relative;
       h1 {
         color: $white;
-        font-size: 32px;
+        font-size: $h1;
         line-height: 36px;
         margin-bottom: 10px;
       }
@@ -296,4 +297,58 @@ a {
       }
     }
   }
+}
+
+
+// plyer spotlight
+.player-spotlight {
+	h1{
+		font-size: $h1;
+	}
+	.card-player{
+		background-color: $dark;
+		.card{
+			border: 1px solid #272B3F;
+			border-radius: 8px!important;
+			.card-body{
+				color: $white!important;
+				background-color: $dark;
+				.card-top{
+					img{
+						border-radius: 8px;
+					}
+				}
+				.card-details{
+					h3{
+						font-size: 1.1rem;
+						line-height: 1.2rem;
+						color: $white;
+					}
+					ul{
+						li{
+							font-size: 12px!important;
+							margin-right: 1px;
+							img{
+								height: 16px;
+							}
+							span{
+								font-size: 12px;
+							}
+							.dot{
+								width: 4px;
+								height: 4px;
+								display: inline-block;
+								background-color: $white;
+								opacity: 0.2;
+								border-radius: 50px;
+								line-height: 12px;
+								vertical-align: middle;
+							}
+						}
+						
+					}
+				}
+			}
+		}
+	}
 }
