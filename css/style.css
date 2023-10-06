@@ -32,6 +32,49 @@ a.more {
   font-weight: 600;
 }
 
+.btn {
+  font-weight: 600;
+  padding: 12px 30px;
+  color: #ffffff;
+  background: #272B3F;
+  border-color: #272B3F;
+}
+.btn:hover {
+  color: #ffffff;
+  background: #1d202f;
+  border-color: #1d202f;
+}
+.btn:active, .btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+.btn.btn-primary {
+  background: #292e41;
+  border-color: #292e41;
+}
+.btn.btn-primary:hover {
+  background: #1f2331;
+  border-color: #1f2331;
+}
+.btn.btn-secondary {
+  color: #ffffff;
+  background: #267fe1;
+  border-color: #267fe1;
+}
+.btn.btn-secondary:hover {
+  background: #1d72d1;
+  border-color: #1d72d1;
+}
+.btn.btn-white-outline {
+  background: transparent;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.btn.btn-white-outline:hover {
+  border-color: white;
+  color: #ffffff;
+}
+
 .custom-navbar {
   background: #292e41 !important;
   padding-top: 20px;
@@ -124,49 +167,6 @@ a.more {
   opacity: 1;
   width: 16px;
   height: 8px;
-}
-
-.btn {
-  font-weight: 600;
-  padding: 12px 30px;
-  color: #ffffff;
-  background: #272B3F;
-  border-color: #272B3F;
-}
-.btn:hover {
-  color: #ffffff;
-  background: #1d202f;
-  border-color: #1d202f;
-}
-.btn:active, .btn:focus {
-  outline: none !important;
-  box-shadow: none;
-}
-.btn.btn-primary {
-  background: #292e41;
-  border-color: #292e41;
-}
-.btn.btn-primary:hover {
-  background: #1f2331;
-  border-color: #1f2331;
-}
-.btn.btn-secondary {
-  color: #ffffff;
-  background: #267fe1;
-  border-color: #267fe1;
-}
-.btn.btn-secondary:hover {
-  background: #1d72d1;
-  border-color: #1d72d1;
-}
-.btn.btn-white-outline {
-  background: transparent;
-  border-width: 2px;
-  border-color: rgba(255, 255, 255, 0.3);
-}
-.btn.btn-white-outline:hover {
-  border-color: white;
-  color: #ffffff;
 }
 
 @media (max-width: 576px) {
@@ -294,4 +294,25 @@ a.more {
 .player-spotlight .card-player .card .eligible-player .country-flags img {
   width: 20px;
   height: 20px;
+}
+
+.footer-section {
+  background-color: #292e41;
+}
+.footer-section .footer-logo img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.footer-section .footer-logo p {
+  margin-bottom: 0;
+}
+.footer-section .social-icons div {
+  width: 32px;
+  height: 32px;
+  background-color: #30354a;
+  margin-right: 8px;
+}
+.footer-section .social-icons div img {
+  max-width: 16px;
+  max-height: 16px;
 }

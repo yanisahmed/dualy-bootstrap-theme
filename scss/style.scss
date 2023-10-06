@@ -52,6 +52,52 @@ a {
   }
 }
 
+// Button
+.btn {
+	font-weight: 600;
+	padding: 12px 30px;
+	// border-radius: 30px;
+	color: $white;
+	background: $dark;
+	border-color: $dark;
+	&:hover {
+	  color: $white;
+	  background: darken($dark, 5%);
+	  border-color: darken($dark, 5%);
+	}
+	&:active,
+	&:focus {
+	  outline: none !important;
+	  box-shadow: none;
+	}
+	&.btn-primary {
+	  background: $primary;
+	  border-color: $primary;
+	  &:hover {
+		background: darken($primary, 5%);
+		border-color: darken($primary, 5%);
+	  }
+	}
+	&.btn-secondary {
+	  color: $white;
+	  background: $secondary;
+	  border-color: $secondary;
+	  &:hover {
+		background: darken($secondary, 5%);
+		border-color: darken($secondary, 5%);
+	  }
+	}
+	&.btn-white-outline {
+	  background: transparent;
+	  border-width: 2px;
+	  border-color: rgba($white, 0.3);
+	  &:hover {
+		border-color: rgba($white, 1);
+		color: $white;
+	  }
+	}
+  }
+
 .custom-navbar {
   background: $primary !important;
   padding-top: 20px;
@@ -186,51 +232,7 @@ a {
   // }
 }
 
-// Button
-.btn {
-  font-weight: 600;
-  padding: 12px 30px;
-  // border-radius: 30px;
-  color: $white;
-  background: $dark;
-  border-color: $dark;
-  &:hover {
-    color: $white;
-    background: darken($dark, 5%);
-    border-color: darken($dark, 5%);
-  }
-  &:active,
-  &:focus {
-    outline: none !important;
-    box-shadow: none;
-  }
-  &.btn-primary {
-    background: $primary;
-    border-color: $primary;
-    &:hover {
-      background: darken($primary, 5%);
-      border-color: darken($primary, 5%);
-    }
-  }
-  &.btn-secondary {
-    color: $white;
-    background: $secondary;
-    border-color: $secondary;
-    &:hover {
-      background: darken($secondary, 5%);
-      border-color: darken($secondary, 5%);
-    }
-  }
-  &.btn-white-outline {
-    background: transparent;
-    border-width: 2px;
-    border-color: rgba($white, 0.3);
-    &:hover {
-      border-color: rgba($white, 1);
-      color: $white;
-    }
-  }
-}
+
 
 // Search
 .search-cta {
@@ -294,7 +296,6 @@ a {
     }
   }
 }
-
 
 // plyer spotlight
 .player-spotlight {
@@ -378,6 +379,31 @@ a {
 				}
 			}
 			
+		}
+	}
+}
+
+.footer-section{
+	background-color: $primary;
+	.footer-logo{
+		img{
+			max-width: 100px;
+			max-height: 100px;
+		}
+		p{
+			margin-bottom: 0;
+		}
+	}
+	.social-icons{
+		div{
+			width: 32px;
+			height: 32px;
+			background-color: #30354a;
+			margin-right: 8px;
+			img{
+				max-width: 16px;
+				max-height: 16px;
+			}
 		}
 	}
 }
