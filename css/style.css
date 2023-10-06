@@ -93,41 +93,37 @@ a.more {
   background-position: center;
   border-radius: 10px;
 }
-.hero .intro-excerpt {
-  position: relative;
-  max-height: 480px;
-  z-index: 4;
-  padding-top: 20%;
+.hero .carousel-caption {
+  left: 5%;
+  text-align: left;
 }
-.hero .intro-excerpt p {
-  display: block;
+.hero .carousel-indicators {
+  bottom: 182px;
+  justify-content: flex-start;
+  margin-left: 5%;
 }
-.hero .intro-excerpt p span.big-dot {
-  width: 16px;
-  height: 8px;
-  border-radius: 8px;
-  display: inline-block;
-  background-color: #ffffff;
-}
-.hero .intro-excerpt p span.small-dot {
+.hero .carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
   width: 8px;
   height: 8px;
-  border-radius: 8px;
-  display: inline-block;
-  background-color: #ffffff;
-  opacity: 0.4;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
 }
-.hero h1 {
-  font-weight: 600;
-  color: #ffffff;
-}
-@media (min-width: 1400px) {
-  .hero h1 {
-    font-size: 54px;
-  }
-}
-.hero p {
-  color: rgba(255, 255, 255, 0.5);
+.hero .carousel-indicators .active {
+  opacity: 1;
+  width: 16px;
+  height: 8px;
 }
 
 .btn {
@@ -173,6 +169,11 @@ a.more {
   color: #ffffff;
 }
 
+@media (max-width: 576px) {
+  .search-cta {
+    display: none;
+  }
+}
 .search-cta .container {
   position: relative;
   padding: 100px;
